@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section class="">
         <div class="hero-cont">
             <div class="herobg"></div>
             <div class="hero-info">

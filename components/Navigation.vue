@@ -30,12 +30,16 @@
 
 <style scoped>
 .nav-cont{
+    position: absolute;
     display: flex;
     flex-direction: row;
    /*  display: grid;
     grid-template-columns: 1fr 1fr 1fr; */
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 10000;
 }
 
 .nav-list-cont{
