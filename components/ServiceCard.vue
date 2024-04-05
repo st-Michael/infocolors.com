@@ -75,6 +75,8 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
+    height: 700px;
+    margin-bottom: 60px; 
 }
 
 .service{
@@ -87,6 +89,7 @@
     border: 4px solid rgba(255, 255, 255, 0.10);
     padding: 70px 31px;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .serv-ti-icon{
