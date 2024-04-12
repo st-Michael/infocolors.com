@@ -43,6 +43,8 @@
     flex-direction: column;
     position: relative;
     color: whitesmoke;
+    height: 750px;
+    margin-bottom: 60px;
 }
 
 .std-sess{
@@ -50,6 +52,7 @@
 }
 .sess-bg{
     position: absolute;
+    z-index: -1000;
     width: 100%;
 }
 .sess-text{

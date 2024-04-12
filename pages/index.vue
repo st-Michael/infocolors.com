@@ -7,6 +7,7 @@
     <about />
     <media />
     <studio />
+    <testimonials />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import service from "./home/service.vue"
 import about from "./home/about.vue"
 import media from "./home/media.vue"
 import studio from "./home/studio.vue"
+import testimonials from "./home/testimonials.vue"
 
 
 export default {
@@ -26,7 +28,8 @@ export default {
     service,
     about,
     media,
-    studio
+    studio,
+    testimonials
   }
 }
 
