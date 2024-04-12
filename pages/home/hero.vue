@@ -14,7 +14,7 @@
                         <img src="@/assets/icons/fb.png" alt="fb">
                     </div>
                     <div class="hero-title">
-                        <h1 class="heading">WELCOME TO INFOCOLORS</h1>
+                        <h1 class="heading">WELCOME TO <br/>INFOCOLORS</h1>
                         <p class="sub-heading">A Trusted media for Variety of Information</p>
                     </div>
                     
@@ -94,7 +94,7 @@
     gap: 20%;
 }
 .hero-title h1{
-    font-size: 60px;
+    font-size: 140px;
     font-style: normal;
     font-weight: 700;
     line-height: 105px; /* 150% */
