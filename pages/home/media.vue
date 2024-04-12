@@ -16,7 +16,7 @@
 
             <div class="series-card-cont">
                 <SeriesCard
-                    v-for="(x, item) in " :key="item"            
+                    v-for="(x, item) in 4" :key="item"            
     
                 />
             </div>
@@ -35,7 +35,7 @@
     flex-direction: column;
     gap:  60px;
     color: white;
-    margin: 120px 0; 
+    margin: 60px 0; 
 }
 .sec4-title{
     display: flex;
@@ -45,26 +45,8 @@
     padding-left: 150px;
     padding-right: 150px;
 }
-
 .series-card-cont{
     overflow-x: auto;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.507);
-  border-radius: 10px;
 }
 
 </style>

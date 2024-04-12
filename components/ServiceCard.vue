@@ -56,7 +56,7 @@
 
                         <P>LEARN MORE</P>
                     </div>
-                </div>
+                </div> 
             </div>
 
   </div>

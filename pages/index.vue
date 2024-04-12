@@ -6,6 +6,7 @@
     <service/>
     <about />
     <media />
+    <studio />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import creative from "./home/creative.vue"
 import service from "./home/service.vue"
 import about from "./home/about.vue"
 import media from "./home/media.vue"
+import studio from "./home/studio.vue"
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     creative,
     service,
     about,
-    media
+    media,
+    studio
   }
 }
 
