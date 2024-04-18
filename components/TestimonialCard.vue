@@ -6,13 +6,14 @@
                         This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme
                     </p>
                 </div>
+                <hr>
                 <div class="tst-name-img">
                     <div class="tst-img">
                         <img src="" alt="">
                     </div>
                     <div class="tst-name">
-                        <h3></h3>
-                        <p></p>
+                        <h3>Chijioke Ebube</h3>
+                        <p>Capital city dev</p>
                     </div>
                 </div>
           </div>
@@ -33,5 +34,10 @@
     border: 1px solid rgba(255, 255, 255, 0.10);
     flex-shrink: 0;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    gap: 30px;
+
 }
 </style>

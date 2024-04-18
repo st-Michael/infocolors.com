@@ -14,10 +14,13 @@
             </div>
 
             <div class="tst-card-cont">
-                <TestimonialCard />
+                <TestimonialCard 
+                v-for="(x, item) in 4" :key="item"            
+    
+                />
             </div>
         </div>
-    </section>  
+    </section>   
   </div>
 </template>
 
@@ -44,6 +47,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    overflow-x: auto;
 }
 
 </style>
